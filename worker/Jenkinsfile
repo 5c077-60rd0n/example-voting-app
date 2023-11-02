@@ -33,9 +33,10 @@ pipeline {
       }
     }
   }
+
   post {
     always {
-      echo 'the job is complete'
+      echo 'the job is complete mostly'
     }
   }
 }
